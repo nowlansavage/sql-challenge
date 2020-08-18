@@ -21,7 +21,7 @@ create table Title (
 );
 
 create table Department_Employee (
-	EmployeeID varchar,
+	EmployeeID int,
 	departmentID varchar,
 	PRIMARY KEY(EmployeeID, departmentID)
 );
@@ -32,7 +32,7 @@ create table Departments (
 );
 
 create table Salary (
-	EmployeeID varchar primary key,
+	EmployeeID INT primary key,
 	salary int
 );
 
